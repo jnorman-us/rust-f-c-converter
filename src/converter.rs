@@ -37,11 +37,11 @@ impl Converter {
     }
 
     pub fn raw_input(&self) -> String {
-        return format!("{}°", self.raw_input.clone())
+        return format!("{}°", self.raw_input.clone());
     }
 
     pub fn calculated(&self) -> String {
-        return format!("{:.1}°", self.calculated)
+        return format!("{:.1}°", self.calculated);
     }
 }
 
@@ -50,5 +50,5 @@ fn farenheit_to_celsius(f: f64) -> f64 {
 }
 
 pub fn celsius_to_farenheit(c: f64) -> f64 {
-    return c * 9.0 / 5.0 + 32.0
+    return c * 9.0 / 5.0 + 32.0;
 }
